@@ -1,0 +1,19 @@
+extend layout
+
+block content
+  div.container
+    h1.header= abstract
+    blockquote
+      h3 要求：
+      div
+        ul
+          li= stories[0]
+          li= stories[1]
+          li= stories[2]
+    h3 示例：
+    code= usage[0]
+    br
+    code= usage[1]
+    h3 结果：
+    code= result
+
